@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22E7645C1C3E3ECE00C28EB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E7645B1C3E3ECE00C28EB7 /* main.m */; };
+		22E7645F1C3E3ECE00C28EB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E7645E1C3E3ECE00C28EB7 /* AppDelegate.m */; };
+		22E764621C3E3ECE00C28EB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E764611C3E3ECE00C28EB7 /* ViewController.m */; };
+		22E764651C3E3ECE00C28EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E764631C3E3ECE00C28EB7 /* Main.storyboard */; };
+		22E764671C3E3ECE00C28EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E764661C3E3ECE00C28EB7 /* Assets.xcassets */; };
+		22E7646A1C3E3ECE00C28EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E764681C3E3ECE00C28EB7 /* LaunchScreen.storyboard */; };
+		22E764751C3E3ECE00C28EB7 /* Practice_denglu_20Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E764741C3E3ECE00C28EB7 /* Practice_denglu_20Tests.m */; };
+		22E764801C3E3ECE00C28EB7 /* Practice_denglu_20UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E7647F1C3E3ECE00C28EB7 /* Practice_denglu_20UITests.m */; };
+		22E7648F1C3E3EE700C28EB7 /* ViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E7648E1C3E3EE700C28EB7 /* ViewController01.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22E764711C3E3ECE00C28EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E7644F1C3E3ECE00C28EB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E764561C3E3ECE00C28EB7;
+			remoteInfo = "Practice denglu 20";
+		};
+		22E7647C1C3E3ECE00C28EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E7644F1C3E3ECE00C28EB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E764561C3E3ECE00C28EB7;
+			remoteInfo = "Practice denglu 20";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22E764571C3E3ECE00C28EB7 /* Practice denglu 20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practice denglu 20.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E7645B1C3E3ECE00C28EB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22E7645D1C3E3ECE00C28EB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22E7645E1C3E3ECE00C28EB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22E764601C3E3ECE00C28EB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22E764611C3E3ECE00C28EB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22E764641C3E3ECE00C28EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22E764661C3E3ECE00C28EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22E764691C3E3ECE00C28EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22E7646B1C3E3ECE00C28EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E764701C3E3ECE00C28EB7 /* Practice denglu 20Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practice denglu 20Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E764741C3E3ECE00C28EB7 /* Practice_denglu_20Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Practice_denglu_20Tests.m; sourceTree = "<group>"; };
+		22E764761C3E3ECE00C28EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E7647B1C3E3ECE00C28EB7 /* Practice denglu 20UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practice denglu 20UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E7647F1C3E3ECE00C28EB7 /* Practice_denglu_20UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Practice_denglu_20UITests.m; sourceTree = "<group>"; };
+		22E764811C3E3ECE00C28EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E7648D1C3E3EE700C28EB7 /* ViewController01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController01.h; sourceTree = "<group>"; };
+		22E7648E1C3E3EE700C28EB7 /* ViewController01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController01.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22E764541C3E3ECE00C28EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E7646D1C3E3ECE00C28EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E764781C3E3ECE00C28EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22E7644E1C3E3ECE00C28EB7 = {
+			isa = PBXGroup;
+			children = (
+				22E764591C3E3ECE00C28EB7 /* Practice denglu 20 */,
+				22E764731C3E3ECE00C28EB7 /* Practice denglu 20Tests */,
+				22E7647E1C3E3ECE00C28EB7 /* Practice denglu 20UITests */,
+				22E764581C3E3ECE00C28EB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22E764581C3E3ECE00C28EB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22E764571C3E3ECE00C28EB7 /* Practice denglu 20.app */,
+				22E764701C3E3ECE00C28EB7 /* Practice denglu 20Tests.xctest */,
+				22E7647B1C3E3ECE00C28EB7 /* Practice denglu 20UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22E764591C3E3ECE00C28EB7 /* Practice denglu 20 */ = {
+			isa = PBXGroup;
+			children = (
+				22E7645D1C3E3ECE00C28EB7 /* AppDelegate.h */,
+				22E7645E1C3E3ECE00C28EB7 /* AppDelegate.m */,
+				22E764601C3E3ECE00C28EB7 /* ViewController.h */,
+				22E764611C3E3ECE00C28EB7 /* ViewController.m */,
+				22E7648D1C3E3EE700C28EB7 /* ViewController01.h */,
+				22E7648E1C3E3EE700C28EB7 /* ViewController01.m */,
+				22E764631C3E3ECE00C28EB7 /* Main.storyboard */,
+				22E764661C3E3ECE00C28EB7 /* Assets.xcassets */,
+				22E764681C3E3ECE00C28EB7 /* LaunchScreen.storyboard */,
+				22E7646B1C3E3ECE00C28EB7 /* Info.plist */,
+				22E7645A1C3E3ECE00C28EB7 /* Supporting Files */,
+			);
+			path = "Practice denglu 20";
+			sourceTree = "<group>";
+		};
+		22E7645A1C3E3ECE00C28EB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22E7645B1C3E3ECE00C28EB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22E764731C3E3ECE00C28EB7 /* Practice denglu 20Tests */ = {
+			isa = PBXGroup;
+			children = (
+				22E764741C3E3ECE00C28EB7 /* Practice_denglu_20Tests.m */,
+				22E764761C3E3ECE00C28EB7 /* Info.plist */,
+			);
+			path = "Practice denglu 20Tests";
+			sourceTree = "<group>";
+		};
+		22E7647E1C3E3ECE00C28EB7 /* Practice denglu 20UITests */ = {
+			isa = PBXGroup;
+			children = (
+				22E7647F1C3E3ECE00C28EB7 /* Practice_denglu_20UITests.m */,
+				22E764811C3E3ECE00C28EB7 /* Info.plist */,
+			);
+			path = "Practice denglu 20UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22E764561C3E3ECE00C28EB7 /* Practice denglu 20 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E764841C3E3ECE00C28EB7 /* Build configuration list for PBXNativeTarget "Practice denglu 20" */;
+			buildPhases = (
+				22E764531C3E3ECE00C28EB7 /* Sources */,
+				22E764541C3E3ECE00C28EB7 /* Frameworks */,
+				22E764551C3E3ECE00C28EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Practice denglu 20";
+			productName = "Practice denglu 20";
+			productReference = 22E764571C3E3ECE00C28EB7 /* Practice denglu 20.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22E7646F1C3E3ECE00C28EB7 /* Practice denglu 20Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E764871C3E3ECE00C28EB7 /* Build configuration list for PBXNativeTarget "Practice denglu 20Tests" */;
+			buildPhases = (
+				22E7646C1C3E3ECE00C28EB7 /* Sources */,
+				22E7646D1C3E3ECE00C28EB7 /* Frameworks */,
+				22E7646E1C3E3ECE00C28EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E764721C3E3ECE00C28EB7 /* PBXTargetDependency */,
+			);
+			name = "Practice denglu 20Tests";
+			productName = "Practice denglu 20Tests";
+			productReference = 22E764701C3E3ECE00C28EB7 /* Practice denglu 20Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22E7647A1C3E3ECE00C28EB7 /* Practice denglu 20UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E7648A1C3E3ECE00C28EB7 /* Build configuration list for PBXNativeTarget "Practice denglu 20UITests" */;
+			buildPhases = (
+				22E764771C3E3ECE00C28EB7 /* Sources */,
+				22E764781C3E3ECE00C28EB7 /* Frameworks */,
+				22E764791C3E3ECE00C28EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E7647D1C3E3ECE00C28EB7 /* PBXTargetDependency */,
+			);
+			name = "Practice denglu 20UITests";
+			productName = "Practice denglu 20UITests";
+			productReference = 22E7647B1C3E3ECE00C28EB7 /* Practice denglu 20UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22E7644F1C3E3ECE00C28EB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ZDwork;
+				TargetAttributes = {
+					22E764561C3E3ECE00C28EB7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					22E7646F1C3E3ECE00C28EB7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 22E764561C3E3ECE00C28EB7;
+					};
+					22E7647A1C3E3ECE00C28EB7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 22E764561C3E3ECE00C28EB7;
+					};
+				};
+			};
+			buildConfigurationList = 22E764521C3E3ECE00C28EB7 /* Build configuration list for PBXProject "Practice denglu 20" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22E7644E1C3E3ECE00C28EB7;
+			productRefGroup = 22E764581C3E3ECE00C28EB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22E764561C3E3ECE00C28EB7 /* Practice denglu 20 */,
+				22E7646F1C3E3ECE00C28EB7 /* Practice denglu 20Tests */,
+				22E7647A1C3E3ECE00C28EB7 /* Practice denglu 20UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22E764551C3E3ECE00C28EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E7646A1C3E3ECE00C28EB7 /* LaunchScreen.storyboard in Resources */,
+				22E764671C3E3ECE00C28EB7 /* Assets.xcassets in Resources */,
+				22E764651C3E3ECE00C28EB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E7646E1C3E3ECE00C28EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E764791C3E3ECE00C28EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22E764531C3E3ECE00C28EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E764621C3E3ECE00C28EB7 /* ViewController.m in Sources */,
+				22E7648F1C3E3EE700C28EB7 /* ViewController01.m in Sources */,
+				22E7645F1C3E3ECE00C28EB7 /* AppDelegate.m in Sources */,
+				22E7645C1C3E3ECE00C28EB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E7646C1C3E3ECE00C28EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E764751C3E3ECE00C28EB7 /* Practice_denglu_20Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E764771C3E3ECE00C28EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E764801C3E3ECE00C28EB7 /* Practice_denglu_20UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22E764721C3E3ECE00C28EB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E764561C3E3ECE00C28EB7 /* Practice denglu 20 */;
+			targetProxy = 22E764711C3E3ECE00C28EB7 /* PBXContainerItemProxy */;
+		};
+		22E7647D1C3E3ECE00C28EB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E764561C3E3ECE00C28EB7 /* Practice denglu 20 */;
+			targetProxy = 22E7647C1C3E3ECE00C28EB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22E764631C3E3ECE00C28EB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E764641C3E3ECE00C28EB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22E764681C3E3ECE00C28EB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E764691C3E3ECE00C28EB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22E764821C3E3ECE00C28EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22E764831C3E3ECE00C28EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22E764851C3E3ECE00C28EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Practice denglu 20/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZD.Practice-denglu-20";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22E764861C3E3ECE00C28EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Practice denglu 20/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZD.Practice-denglu-20";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22E764881C3E3ECE00C28EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Practice denglu 20Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZD.Practice-denglu-20Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practice denglu 20.app/Practice denglu 20";
+			};
+			name = Debug;
+		};
+		22E764891C3E3ECE00C28EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Practice denglu 20Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZD.Practice-denglu-20Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practice denglu 20.app/Practice denglu 20";
+			};
+			name = Release;
+		};
+		22E7648B1C3E3ECE00C28EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Practice denglu 20UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZD.Practice-denglu-20UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Practice denglu 20";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		22E7648C1C3E3ECE00C28EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Practice denglu 20UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZD.Practice-denglu-20UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Practice denglu 20";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22E764521C3E3ECE00C28EB7 /* Build configuration list for PBXProject "Practice denglu 20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E764821C3E3ECE00C28EB7 /* Debug */,
+				22E764831C3E3ECE00C28EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E764841C3E3ECE00C28EB7 /* Build configuration list for PBXNativeTarget "Practice denglu 20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E764851C3E3ECE00C28EB7 /* Debug */,
+				22E764861C3E3ECE00C28EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22E764871C3E3ECE00C28EB7 /* Build configuration list for PBXNativeTarget "Practice denglu 20Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E764881C3E3ECE00C28EB7 /* Debug */,
+				22E764891C3E3ECE00C28EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22E7648A1C3E3ECE00C28EB7 /* Build configuration list for PBXNativeTarget "Practice denglu 20UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E7648B1C3E3ECE00C28EB7 /* Debug */,
+				22E7648C1C3E3ECE00C28EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22E7644F1C3E3ECE00C28EB7 /* Project object */;
+}
